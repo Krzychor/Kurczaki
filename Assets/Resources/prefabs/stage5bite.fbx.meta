@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 163c1dfdbb101114a8fb0e2c87ad0896
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: beak
+    100002: beak_down
+    100004: beak_down_end
+    100006: beak_end
+    100008: Camera
+    100010: head
+    100012: L_Arm_1
+    100014: L_Arm_2
+    100016: L_Arm_3
+    100018: L_Feathers
+    100020: L_feathers
+    100022: L_Feathers_end
+    100024: L_feathers_end
+    100026: L_foot_1
+    100028: L_foot_2
+    100030: L_foot_3
+    100032: L_foot_3_end
+    100034: L_leg
+    100036: L_leg_2
+    100038: L_leg_3
+    100040: Light
+    100042: neck
+    100044: pelvis.001
+    100046: pelvis2
+    100048: R_Arm_1
+    100050: R_Arm_2
+    100052: R_Arm_3
+    100054: R_Feathers
+    100056: R_feathers
+    100058: R_Feathers_end
+    100060: R_feathers_end
+    100062: R_foot
+    100064: R_Foot_2
+    100066: R_foot_3
+    100068: R_foot_3_end
+    100070: R_leg
+    100072: R_leg_2
+    100074: R_leg_3
+    100076: stage5
+    100078: //RootNode
+    100080: Stage_5_Armature
+    100082: Tail
+    100084: Tail2
+    100086: Tail3
+    100088: tail4
+    100090: tail4_end
+    400000: beak
+    400002: beak_down
+    400004: beak_down_end
+    400006: beak_end
+    400008: Camera
+    400010: head
+    400012: L_Arm_1
+    400014: L_Arm_2
+    400016: L_Arm_3
+    400018: L_Feathers
+    400020: L_feathers
+    400022: L_Feathers_end
+    400024: L_feathers_end
+    400026: L_foot_1
+    400028: L_foot_2
+    400030: L_foot_3
+    400032: L_foot_3_end
+    400034: L_leg
+    400036: L_leg_2
+    400038: L_leg_3
+    400040: Light
+    400042: neck
+    400044: pelvis.001
+    400046: pelvis2
+    400048: R_Arm_1
+    400050: R_Arm_2
+    400052: R_Arm_3
+    400054: R_Feathers
+    400056: R_feathers
+    400058: R_Feathers_end
+    400060: R_feathers_end
+    400062: R_foot
+    400064: R_Foot_2
+    400066: R_foot_3
+    400068: R_foot_3_end
+    400070: R_leg
+    400072: R_leg_2
+    400074: R_leg_3
+    400076: stage5
+    400078: //RootNode
+    400080: Stage_5_Armature
+    400082: Tail
+    400084: Tail2
+    400086: Tail3
+    400088: tail4
+    400090: tail4_end
+    2000000: Camera
+    2100000: Material.188
+    2100002: Material.186
+    2100004: eyes
+    2100006: piora
+    2100008: player
+    4300000: stage5
+    7400000: Stage_5_Armature|Stage_5_ArmatureAction
+    9500000: //RootNode
+    10800000: Light
+    13700000: stage5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

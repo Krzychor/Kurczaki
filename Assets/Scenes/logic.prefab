@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2243422356092341098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2243422356092341100}
+  - component: {fileID: 2243422356092341099}
+  m_Layer: 0
+  m_Name: logic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2243422356092341100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243422356092341098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.01, y: -7.0431833, z: -11.931009}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2243422356092341099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243422356092341098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a2a132a0fd8fa41aceff1f27434508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  SpawnPoint: {fileID: 0}
+  wormPrefab: {fileID: 5030652239683114613, guid: 95af0447ca8239d49a87bcce8516f020,
+    type: 3}
+  Player: {fileID: 5790505290406605363, guid: f237513538ecb914397cc3098a29c11a, type: 3}
+  stages:
+  - {fileID: 383014793263710963, guid: d9ff1f92920c1ad49b642bb015c6f8b0, type: 3}
+  - {fileID: 3420998533654723468, guid: 96db0da1c1df6864fbca4a1b050acfe1, type: 3}
+  - {fileID: 6939954752014350220, guid: 1b0bf9863d97fa240b1d7f9c26b4324c, type: 3}
+  - {fileID: 6321498185563735448, guid: a35cbe21983ffe644b5ee682a7f40dda, type: 3}
+  healtDepletionPerSec: 1
+  health: 0
+  maxHealth: 200
+  FoodGain: 100
+  WormMaxlifetime: 20
+  spawnRange: 7.4
+  minWormSpawnTime: 0.5
+  maxWormSpawnTime: 0.45
+  currentWorms: 0
+  maxWorms: 100
+  ChickenBotsLimit: 100
+  CurrentChickens: 0
