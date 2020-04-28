@@ -30,6 +30,8 @@ public class CameraFollow : MonoBehaviour
     
     void LateUpdate()
     {
+        if (target == null)
+            return;
         if (focusRadius > 0f)
         {
             float distance = Vector3.Distance(target.position, focusPoint);

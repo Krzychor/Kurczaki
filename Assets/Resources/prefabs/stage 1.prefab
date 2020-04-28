@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 9132805173402554792}
   m_Layer: 10
   m_Name: stage 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -895,6 +895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 0}
   worms: []
+  players: []
 --- !u!65 &938060355808943416
 BoxCollider:
   m_ObjectHideFlags: 0

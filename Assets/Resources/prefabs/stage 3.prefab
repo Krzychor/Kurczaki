@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 7379894948528719680}
   m_Layer: 10
   m_Name: stage 3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,7 +400,7 @@ CapsuleCollider:
   m_Radius: 0.33
   m_Height: 1.5
   m_Direction: 1
-  m_Center: {x: 0.12, y: 1.04, z: -0.01}
+  m_Center: {x: 0.12, y: 0.73, z: -0.01}
 --- !u!114 &7379894948528719680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,11 +414,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChickenSpeed: 5
-  acceleration: 2
+  BackwardSpeed: 3
+  acceleration: 20
   RotationSpeed: 100
   MovingRotationSpeed: 60
-  CameraAngle: 60
-  CameraDistance: 2
+  CameraAngle: 40
+  CameraDistance: 4
 --- !u!1 &3420998533654723470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 0}
   worms: []
+  players: []
 --- !u!65 &8729031535448571044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1707,4 +1709,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.13, z: 0}

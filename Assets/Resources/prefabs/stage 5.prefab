@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 4839505175782991703}
   worms: []
+  players: []
 --- !u!65 &2869866374200946781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -346,7 +347,7 @@ GameObject:
   - component: {fileID: 404721385804286610}
   m_Layer: 10
   m_Name: stage 5
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 6939954752014350220}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 6939954752014707624}
   - {fileID: 6939954752014707626}
@@ -467,11 +468,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChickenSpeed: 5
-  acceleration: 2
+  BackwardSpeed: 8
+  acceleration: 20
   RotationSpeed: 100
   MovingRotationSpeed: 60
-  CameraAngle: 60
-  CameraDistance: 2
+  CameraAngle: 40
+  CameraDistance: 5
 --- !u!1 &6939954752014350222
 GameObject:
   m_ObjectHideFlags: 0

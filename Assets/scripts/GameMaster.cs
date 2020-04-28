@@ -34,8 +34,10 @@ public class GameMaster : MonoBehaviour
     public uint currentWorms = 0;
     [Range(0, 100)]
     public uint maxWorms = 20;
-    
 
+    [Min(0)]
+    public int ChickenBotsLimit = 100;
+    public int CurrentChickens = 0;
 
 
     public void SetWinner(string name)
